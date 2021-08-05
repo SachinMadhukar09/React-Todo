@@ -1,0 +1,49 @@
+body{
+  height: 100vh;
+  background: black;
+  font-size: 20px;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.app-title{
+  color: crimson;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  color: crimson;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.btn ,.add-btn {
+  margin: 10px;
+  /* padding-left: 2px; */
+  background-color: crimson;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 3px;
+  color: black;
+}
+input{
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+.footer{
+  font-size: 15px;
+  color: crimson;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
